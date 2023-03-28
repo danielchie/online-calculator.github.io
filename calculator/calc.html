@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cheney's calculator</title>
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div id="mainbody">
+        <div>
+            <input type="text" id="screen" placeholder="0">
+            <div class="but">
+                <div class="row">
+                    <button class="operator" onclick="clrdisp()">AC</button>
+                    <button class="operator" onclick="clk(',')">,</button>
+                    <button class="operator" onclick="clk('%')">%</button>
+                    <button class="operator" onclick="clk('/')">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="clk(7)">7</button>
+                    <button onclick="clk(8)">8</button>
+                    <button onclick="clk(9)">9</button>
+                    <button class="operator" onclick="clk('*')">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="clk(4)">4</button>
+                    <button onclick="clk(5)">5</button>
+                    <button onclick="clk(6)">6</button>
+                    <button class="operator" onclick="clk('-')">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="clk(1)">1</button>
+                    <button onclick="clk(2)">2</button>
+                    <button onclick="clk(3)">3</button>
+                    <button class="operator" onclick="clk('+')">+</button>
+                </div>
+                <div class="row">
+                    <button onclick="clk('00')">00</button>
+                    <button onclick="clk(0)">0</button>
+                    <button onclick="clk('.')">.</button>
+                    <button class="equalBTn" onclick="eql('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
